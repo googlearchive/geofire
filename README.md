@@ -19,7 +19,7 @@ The GeoFire library is available in three different languages:
 * [GeoFire for Java](https://github.com/firebase/geofire-java)
 
 All of the clients work on the same underlying data structure and have similar APIs, making
-it easy to create a cross-platform app on top of GeoFore.
+it easy to create a cross-platform app on top of GeoFire.
 
 ### Integrating GeoFire with your data
 
