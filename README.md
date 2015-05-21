@@ -5,7 +5,7 @@ to store and query a set of keys based on their geographic location. At its hear
 simply stores locations with string keys. Its main benefit, however, is the possibility of
 retrieving only those keys within a given geographic area - all in realtime.
 
-GeoFire uses [Firebase](https://www.firebase.com/?utm_source=geofire) for data storage,
+GeoFire uses the [Firebase](https://www.firebase.com/?utm_source=geofire) database for data storage,
 allowing query results to be updated in realtime as they change. GeoFire *selectively
 loads only the data near certain locations, keeping your applications light and responsive*,
 even with extremely large datasets.
@@ -24,7 +24,7 @@ it easy to create a cross-platform app on top of GeoFire.
 ### Integrating GeoFire with your data
 
 GeoFire is designed as a lightweight add-on to Firebase. To keep things simple, GeoFire stores data
-in its own format and its own location within your Firebase. This allows your existing data format
+in its own format and its own location within your Firebase database. This allows your existing data format
 and security rules to remain unchanged while still providing you with an easy solution for geo
 queries.
 
@@ -50,5 +50,5 @@ is available in each client's respective repository.
 
 ## Getting Started with Firebase
 
-GeoFire requires Firebase in order to store location data. You can
+GeoFire requires the Firebase database in order to store location data. You can
 [sign up here](https://www.firebase.com/signup/?utm_source=geofire) for a free account.
