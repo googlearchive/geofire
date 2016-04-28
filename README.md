@@ -37,17 +37,6 @@ location for each bar using GeoFire, using the bar IDs as GeoFire keys. GeoFire 
 easily query which bar IDs (the keys) are nearby. To display any additional information about the
 bars, you can load the information for each bar returned by the query at `/bars/<bar-id>`.
 
-## Live Demo
-
-To see GeoFire in action, you can [play around with our fully-featured JavaScript demo](https://geofire.firebaseapp.com/sfVehicles/index.html).
-(Drag the purple circle!) This demo maps all of the San Francisco MUNI vehicles within a certain
-search radius. You can drag around the search radius and see the vehicles update in realtime.
-
-[![SF MUNI Demo Image](./sf-vehicles.png)](https://geofire.firebaseapp.com/sfVehicles/index.html)
-
-We wrote the same demo for the Objective-C and Java clients as well. The code for the demos
-is available in each client's respective repository.
-
 ## Getting Started with Firebase
 
 GeoFire requires the Firebase database in order to store location data. You can
