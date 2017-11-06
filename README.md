@@ -15,7 +15,7 @@ even with extremely large datasets.
 The GeoFire library is available in three different languages:
 
 * [GeoFire for JavaScript](https://github.com/firebase/geofire-js)
-* [GeoFire for Objective-C](https://github.com/firebase/geofire-objc)
+* [GeoFire for Objective-C/Swift](https://github.com/firebase/geofire-objc)
 * [GeoFire for Java](https://github.com/firebase/geofire-java)
 
 All of the clients work on the same underlying data structure and have similar APIs, making
